@@ -12,6 +12,8 @@ register_file_system_tools(mcp)
 register_process_tools(mcp)
 register_system_resource_tools(mcp)
 register_network_tools(mcp)
+register_development_tools(mcp)
 
 if __name__ == "__main__":
     mcp.run()
+
